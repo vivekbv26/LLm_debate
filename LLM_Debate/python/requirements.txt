@@ -1,0 +1,9 @@
+# Python Version Requirements
+
+openai>=1.0.0
+anthropic>=0.9.0
+python-dotenv>=1.0.0
+
+# Optional dependencies
+# google-generativeai>=0.1.0  # For Google/Gemini support
+# requests>=2.31.0  # For custom API adapters

@@ -1,0 +1,45 @@
+{
+  "name": "llm-debate-arena",
+  "version": "1.0.0",
+  "description": "A plug-and-play framework for multi-LLM collaborative reasoning and debate",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "demo": "node demo-custom-llms.js",
+    "example": "node examples/basic-debate.js",
+    "example:math": "node examples/math-problem.js",
+    "example:coding": "node examples/coding-task.js",
+    "example:research": "node examples/research-task.js",
+    "example:orchestrator": "node examples/orchestrator-mode.js",
+    "example:custom": "node examples/custom-agents.js",
+    "example:models": "node examples/multiple-models.js",
+    "example:ultimate": "node examples/ultimate-showcase.js",
+    "example:user": "node examples/user-defined-custom.js",
+    "example:evolution": "node examples/common-response-evolution.js"
+  },
+  "keywords": [
+    "llm",
+    "debate",
+    "multi-agent",
+    "ai",
+    "reasoning",
+    "collaboration",
+    "openai",
+    "anthropic",
+    "google",
+    "open-source"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "openai": "^4.20.1",
+    "anthropic": "^0.9.1",
+    "google-generativeai": "^0.1.1",
+    "axios": "^1.6.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
