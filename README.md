@@ -1,3 +1,4 @@
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/a0eaa226-610c-437f-b790-c8252524824f" />
 # LLM Debate Arena
 
 **A plug-and-play framework for multi-LLM collaborative reasoning and debate**
